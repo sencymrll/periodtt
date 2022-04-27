@@ -1,0 +1,1626 @@
+if game.CoreGui:FindFirstChild("AltControlGui") then game.StarterGui:SetCore("SendNotification",{Title ="Nigger Seller Gui",Text ="Script already executed!",Duration =25}) else
+game.StarterGui:SetCore("SendNotification",{Title ="Nigger Seller Gui",Text ="ur fucking retard nigga",Duration =25})
+local AltControlGui = Instance.new("ScreenGui")
+local BackFrame = Instance.new("Frame")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Fill = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local _2Setup = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local train = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local admin = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local bank = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local _0Prefix = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local UICorner_5 = Instance.new("UICorner")
+local _3Host = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local random = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local line = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local spot = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local circle = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local _4Dropping = Instance.new("Frame")
+local stop = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local drop = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local _5Cdrop = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextBox_2 = Instance.new("TextBox")
+local UICorner_12 = Instance.new("UICorner")
+local _6Airlock = Instance.new("Frame")
+local unlock = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local airlock = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local _7Bring = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextBox_3 = Instance.new("TextBox")
+local UICorner_15 = Instance.new("UICorner")
+local bank_2 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local admin_2 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local train_2 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local host = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Stomp = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextBox_4 = Instance.new("TextBox")
+local UICorner_20 = Instance.new("UICorner")
+local _9Money = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local hide = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local show = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local _8Advert = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+local off = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local on = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local Mask = Instance.new("Frame")
+local TextLabel_9 = Instance.new("TextLabel")
+local off_2 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local on_2 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local DelCash = Instance.new("Frame")
+local TextLabel_10 = Instance.new("TextLabel")
+local off_3 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local on_3 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Y = Instance.new("TextLabel")
+local UIListLayout = Instance.new("UIListLayout")
+local Load = Instance.new("Frame")
+local TextLabel_11 = Instance.new("TextLabel")
+local encrypt = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local swagmode = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local Ground = Instance.new("Frame")
+local unlock_2 = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local ground = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local Fps = Instance.new("Frame")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextBox_5 = Instance.new("TextBox")
+local UICorner_33 = Instance.new("UICorner")
+local Dropped = Instance.new("Frame")
+local dropped = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local AdvertMsg = Instance.new("Frame")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextBox_6 = Instance.new("TextBox")
+local UICorner_35 = Instance.new("UICorner")
+local Z = Instance.new("Frame")
+local DestroyGui = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local TopBar = Instance.new("Frame")
+local Corner = Instance.new("UICorner")
+local Fill_2 = Instance.new("Frame")
+local Toggle = Instance.new("ImageButton")
+local Label = Instance.new("TextLabel")
+
+--Properties:
+
+AltControlGui.Name = "AltControlGui"
+AltControlGui.Parent = game:GetService("CoreGui")
+AltControlGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+BackFrame.Name = "BackFrame"
+BackFrame.Parent = AltControlGui
+BackFrame.BackgroundColor3 = Color3.fromRGB(168, 92, 255)
+BackFrame.BackgroundTransparency = 1.000
+BackFrame.BorderSizePixel = 0
+BackFrame.ClipsDescendants = true
+BackFrame.Position = UDim2.new(0.649999976, 0, 0.200000003, 0)
+BackFrame.Size = UDim2.new(0, 210, 0, 270)
+BackFrame.ZIndex = -999
+
+Main.Name = "Main"
+Main.Parent = BackFrame
+Main.Active = true
+Main.BackgroundColor3 = Color3.fromRGB(123, 125, 255)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0, 0, 0.0929999426, 0)
+Main.Size = UDim2.new(0, 209, 0, 245)
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = Main
+
+Fill.Name = "Fill"
+Fill.Parent = Main
+Fill.BackgroundColor3 = Color3.fromRGB(123, 125, 255)
+Fill.BorderSizePixel = 0
+Fill.Position = UDim2.new(0, 0, -0.00128497684, 0)
+Fill.Size = UDim2.new(0, 210, 0, 4)
+
+ScrollingFrame.Parent = Main
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Size = UDim2.new(0, 208, 0, 245)
+ScrollingFrame.ZIndex = 2
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 4.5, 0)
+ScrollingFrame.ScrollBarThickness = 3
+
+_2Setup.Name = "2Setup"
+_2Setup.Parent = ScrollingFrame
+_2Setup.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+_2Setup.BackgroundTransparency = 0.500
+_2Setup.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_2Setup.BorderSizePixel = 0
+_2Setup.Position = UDim2.new(0, 0, 0.0294784568, 0)
+_2Setup.Size = UDim2.new(0, 209, 0, 25)
+
+TextLabel.Parent = _2Setup
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 51, 0, 25)
+TextLabel.Font = Enum.Font.GothamBlack
+TextLabel.Text = "  Setup"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+train.Name = "train"
+train.Parent = _2Setup
+train.AnchorPoint = Vector2.new(0.5, 0.5)
+train.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+train.BorderSizePixel = 0
+train.Position = UDim2.new(0.856923461, 0, 0.5, 0)
+train.Size = UDim2.new(0, 45, 0, 20)
+train.Font = Enum.Font.GothamBold
+train.Text = "Train"
+train.TextColor3 = Color3.fromRGB(255, 255, 255)
+train.TextSize = 12.000
+
+UICorner_2.CornerRadius = UDim.new(0, 6)
+UICorner_2.Parent = train
+
+admin.Name = "admin"
+admin.Parent = _2Setup
+admin.AnchorPoint = Vector2.new(0.5, 0.5)
+admin.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+admin.BorderSizePixel = 0
+admin.Position = UDim2.new(0.608119607, 0, 0.5, 0)
+admin.Size = UDim2.new(0, 45, 0, 20)
+admin.Font = Enum.Font.GothamBold
+admin.Text = "Admin"
+admin.TextColor3 = Color3.fromRGB(255, 255, 255)
+admin.TextSize = 10.000
+
+UICorner_3.CornerRadius = UDim.new(0, 6)
+UICorner_3.Parent = admin
+
+bank.Name = "bank"
+bank.Parent = _2Setup
+bank.AnchorPoint = Vector2.new(0.5, 0.5)
+bank.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+bank.BorderSizePixel = 0
+bank.Position = UDim2.new(0.35453108, 0, 0.5, 0)
+bank.Size = UDim2.new(0, 45, 0, 20)
+bank.Font = Enum.Font.GothamBold
+bank.Text = "Bank"
+bank.TextColor3 = Color3.fromRGB(255, 255, 255)
+bank.TextSize = 12.000
+
+UICorner_4.CornerRadius = UDim.new(0, 6)
+UICorner_4.Parent = bank
+
+_0Prefix.Name = "0Prefix"
+_0Prefix.Parent = ScrollingFrame
+_0Prefix.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+_0Prefix.BackgroundTransparency = 0.500
+_0Prefix.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_0Prefix.BorderSizePixel = 0
+_0Prefix.Size = UDim2.new(0, 209, 0, 25)
+
+TextLabel_2.Parent = _0Prefix
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(0, 51, 0, 25)
+TextLabel_2.Font = Enum.Font.GothamBlack
+TextLabel_2.Text = "  Prefix"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+TextBox.Parent = _0Prefix
+TextBox.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.749268055, 0, 0.0799999982, 0)
+TextBox.Size = UDim2.new(0, 45, 0, 20)
+TextBox.Font = Enum.Font.SourceSansBold
+TextBox.Text = "/"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 50.000
+TextBox.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 6)
+UICorner_5.Parent = TextBox
+
+_3Host.Name = "3Host"
+_3Host.Parent = ScrollingFrame
+_3Host.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+_3Host.BackgroundTransparency = 0.500
+_3Host.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_3Host.BorderSizePixel = 0
+_3Host.Position = UDim2.new(0, 0, 0.269387752, 0)
+_3Host.Size = UDim2.new(0, 208, 0, 50)
+
+TextLabel_3.Parent = _3Host
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Size = UDim2.new(0, 51, 0, 25)
+TextLabel_3.Font = Enum.Font.GothamBlack
+TextLabel_3.Text = "  Host"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+random.Name = "random"
+random.Parent = _3Host
+random.AnchorPoint = Vector2.new(0.5, 0.5)
+random.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+random.BorderSizePixel = 0
+random.Position = UDim2.new(0.620000005, 0, 0.699999988, 0)
+random.Size = UDim2.new(0, 45, 0, 20)
+random.Font = Enum.Font.GothamBold
+random.Text = "Random"
+random.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+UICorner_6.CornerRadius = UDim.new(0, 6)
+UICorner_6.Parent = random
+
+line.Name = "line"
+line.Parent = _3Host
+line.AnchorPoint = Vector2.new(0.5, 0.5)
+line.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+line.BorderSizePixel = 0
+line.Position = UDim2.new(0.379999995, 0, 0.699999988, 0)
+line.Size = UDim2.new(0, 45, 0, 20)
+line.Font = Enum.Font.GothamBold
+line.Text = "Line"
+line.TextColor3 = Color3.fromRGB(255, 255, 255)
+line.TextSize = 12.000
+
+UICorner_7.CornerRadius = UDim.new(0, 6)
+UICorner_7.Parent = line
+
+spot.Name = "spot"
+spot.Parent = _3Host
+spot.AnchorPoint = Vector2.new(0.5, 0.5)
+spot.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+spot.BorderSizePixel = 0
+spot.Position = UDim2.new(0.140000001, 0, 0.720000029, 0)
+spot.Size = UDim2.new(0, 45, 0, 20)
+spot.Font = Enum.Font.GothamBold
+spot.Text = "Spot"
+spot.TextColor3 = Color3.fromRGB(255, 255, 255)
+spot.TextSize = 12.000
+
+UICorner_8.CornerRadius = UDim.new(0, 6)
+UICorner_8.Parent = spot
+
+circle.Name = "circle"
+circle.Parent = _3Host
+circle.AnchorPoint = Vector2.new(0.5, 0.5)
+circle.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+circle.BorderSizePixel = 0
+circle.Position = UDim2.new(0.860000014, 0, 0.699999988, 0)
+circle.Size = UDim2.new(0, 45, 0, 20)
+circle.Font = Enum.Font.GothamBold
+circle.Text = "Circle"
+circle.TextColor3 = Color3.fromRGB(255, 255, 255)
+circle.TextSize = 10.000
+
+UICorner_9.CornerRadius = UDim.new(0, 6)
+UICorner_9.Parent = circle
+
+_4Dropping.Name = "4Dropping"
+_4Dropping.Parent = ScrollingFrame
+_4Dropping.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+_4Dropping.BackgroundTransparency = 0.500
+_4Dropping.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_4Dropping.BorderSizePixel = 0
+_4Dropping.Position = UDim2.new(0, 0, 0.188999996, 0)
+_4Dropping.Size = UDim2.new(0, 209, 0, 25)
+
+stop.Name = "stop"
+stop.Parent = _4Dropping
+stop.AnchorPoint = Vector2.new(0.5, 0.5)
+stop.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+stop.BorderSizePixel = 0
+stop.Position = UDim2.new(0.682282269, 0, 0.5, 0)
+stop.Size = UDim2.new(0, 60, 0, 20)
+stop.Font = Enum.Font.GothamBold
+stop.Text = "Stop"
+stop.TextColor3 = Color3.fromRGB(255, 255, 255)
+stop.TextSize = 14.000
+
+UICorner_10.CornerRadius = UDim.new(0, 6)
+UICorner_10.Parent = stop
+
+drop.Name = "drop"
+drop.Parent = _4Dropping
+drop.AnchorPoint = Vector2.new(0.5, 0.5)
+drop.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+drop.BorderSizePixel = 0
+drop.Position = UDim2.new(0.318645924, 0, 0.5, 0)
+drop.Size = UDim2.new(0, 60, 0, 20)
+drop.Font = Enum.Font.GothamBold
+drop.Text = "Drop"
+drop.TextColor3 = Color3.fromRGB(255, 255, 255)
+drop.TextSize = 14.000
+
+UICorner_11.CornerRadius = UDim.new(0, 6)
+UICorner_11.Parent = drop
+
+_5Cdrop.Name = "5Cdrop"
+_5Cdrop.Parent = ScrollingFrame
+_5Cdrop.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+_5Cdrop.BackgroundTransparency = 0.500
+_5Cdrop.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_5Cdrop.BorderSizePixel = 0
+_5Cdrop.Position = UDim2.new(0, 0, 0.254000008, 0)
+_5Cdrop.Size = UDim2.new(0, 209, 0, 25)
+
+TextLabel_4.Parent = _5Cdrop
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Size = UDim2.new(0, 51, 0, 25)
+TextLabel_4.Font = Enum.Font.GothamBlack
+TextLabel_4.Text = "  CDrop (ex. 1m)"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 13.000
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+TextBox_2.Parent = _5Cdrop
+TextBox_2.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+TextBox_2.BorderSizePixel = 0
+TextBox_2.Position = UDim2.new(0.749268055, 0, 0.0799999982, 0)
+TextBox_2.Size = UDim2.new(0, 45, 0, 20)
+TextBox_2.Font = Enum.Font.SourceSansBold
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.TextScaled = true
+TextBox_2.TextSize = 50.000
+TextBox_2.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 6)
+UICorner_12.Parent = TextBox_2
+
+_6Airlock.Name = "6Airlock"
+_6Airlock.Parent = ScrollingFrame
+_6Airlock.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+_6Airlock.BackgroundTransparency = 0.500
+_6Airlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_6Airlock.BorderSizePixel = 0
+_6Airlock.Position = UDim2.new(0, 0, 0.188999996, 0)
+_6Airlock.Size = UDim2.new(0, 209, 0, 25)
+
+unlock.Name = "unlock"
+unlock.Parent = _6Airlock
+unlock.AnchorPoint = Vector2.new(0.5, 0.5)
+unlock.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+unlock.BorderSizePixel = 0
+unlock.Position = UDim2.new(0.682282269, 0, 0.5, 0)
+unlock.Size = UDim2.new(0, 60, 0, 20)
+unlock.Font = Enum.Font.GothamBold
+unlock.Text = "Unlock"
+unlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+unlock.TextSize = 14.000
+
+UICorner_13.CornerRadius = UDim.new(0, 6)
+UICorner_13.Parent = unlock
+
+airlock.Name = "airlock"
+airlock.Parent = _6Airlock
+airlock.AnchorPoint = Vector2.new(0.5, 0.5)
+airlock.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+airlock.BorderSizePixel = 0
+airlock.Position = UDim2.new(0.318645924, 0, 0.5, 0)
+airlock.Size = UDim2.new(0, 60, 0, 20)
+airlock.Font = Enum.Font.GothamBold
+airlock.Text = "Airlock"
+airlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+airlock.TextSize = 14.000
+
+UICorner_14.CornerRadius = UDim.new(0, 6)
+UICorner_14.Parent = airlock
+
+_7Bring.Name = "7Bring"
+_7Bring.Parent = ScrollingFrame
+_7Bring.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+_7Bring.BackgroundTransparency = 0.500
+_7Bring.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_7Bring.BorderSizePixel = 0
+_7Bring.Position = UDim2.new(0.00478468882, 0, 0.380530655, 0)
+_7Bring.Size = UDim2.new(0, 209, 0, 50)
+
+TextLabel_5.Parent = _7Bring
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Size = UDim2.new(0, 152, 0, 25)
+TextLabel_5.Font = Enum.Font.GothamBlack
+TextLabel_5.Text = "  Bring"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+TextBox_3.Parent = _7Bring
+TextBox_3.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+TextBox_3.BorderSizePixel = 0
+TextBox_3.Position = UDim2.new(0.749268055, 0, 0.0799999982, 0)
+TextBox_3.Size = UDim2.new(0, 45, 0, 20)
+TextBox_3.Font = Enum.Font.SourceSansBold
+TextBox_3.Text = "Target"
+TextBox_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_3.TextScaled = true
+TextBox_3.TextSize = 50.000
+TextBox_3.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 6)
+UICorner_15.Parent = TextBox_3
+
+bank_2.Name = "bank"
+bank_2.Parent = _7Bring
+bank_2.AnchorPoint = Vector2.new(0.5, 0.5)
+bank_2.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+bank_2.BorderSizePixel = 0
+bank_2.Position = UDim2.new(0.140000001, 0, 0.720000029, 0)
+bank_2.Size = UDim2.new(0, 45, 0, 20)
+bank_2.Font = Enum.Font.GothamBold
+bank_2.Text = "Bank"
+bank_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+bank_2.TextSize = 12.000
+
+UICorner_16.CornerRadius = UDim.new(0, 6)
+UICorner_16.Parent = bank_2
+
+admin_2.Name = "admin"
+admin_2.Parent = _7Bring
+admin_2.AnchorPoint = Vector2.new(0.5, 0.5)
+admin_2.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+admin_2.BorderSizePixel = 0
+admin_2.Position = UDim2.new(0.379999995, 0, 0.720000029, 0)
+admin_2.Size = UDim2.new(0, 45, 0, 20)
+admin_2.Font = Enum.Font.GothamBold
+admin_2.Text = "Admin"
+admin_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+admin_2.TextSize = 12.000
+
+UICorner_17.CornerRadius = UDim.new(0, 6)
+UICorner_17.Parent = admin_2
+
+train_2.Name = "train"
+train_2.Parent = _7Bring
+train_2.AnchorPoint = Vector2.new(0.5, 0.5)
+train_2.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+train_2.BorderSizePixel = 0
+train_2.Position = UDim2.new(0.620000005, 0, 0.720000029, 0)
+train_2.Size = UDim2.new(0, 45, 0, 20)
+train_2.Font = Enum.Font.GothamBold
+train_2.Text = "Train"
+train_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+train_2.TextSize = 12.000
+
+UICorner_18.CornerRadius = UDim.new(0, 6)
+UICorner_18.Parent = train_2
+
+host.Name = "host"
+host.Parent = _7Bring
+host.AnchorPoint = Vector2.new(0.5, 0.5)
+host.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+host.BorderSizePixel = 0
+host.Position = UDim2.new(0.860000014, 0, 0.720000029, 0)
+host.Size = UDim2.new(0, 45, 0, 20)
+host.Font = Enum.Font.GothamBold
+host.Text = "Host"
+host.TextColor3 = Color3.fromRGB(255, 255, 255)
+host.TextSize = 12.000
+
+UICorner_19.CornerRadius = UDim.new(0, 6)
+UICorner_19.Parent = host
+
+Stomp.Name = "Stomp"
+Stomp.Parent = ScrollingFrame
+Stomp.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+Stomp.BackgroundTransparency = 0.500
+Stomp.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Stomp.BorderSizePixel = 0
+Stomp.Position = UDim2.new(0, 0, 0.495000005, 0)
+Stomp.Size = UDim2.new(0, 209, 0, 25)
+
+TextLabel_6.Parent = Stomp
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Size = UDim2.new(0, 56, 0, 25)
+TextLabel_6.Font = Enum.Font.GothamBlack
+TextLabel_6.Text = "  Stomp"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 13.000
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+TextBox_4.Parent = Stomp
+TextBox_4.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+TextBox_4.BorderSizePixel = 0
+TextBox_4.Position = UDim2.new(0.749268055, 0, 0.0799999982, 0)
+TextBox_4.Size = UDim2.new(0, 45, 0, 20)
+TextBox_4.Font = Enum.Font.SourceSansBold
+TextBox_4.Text = "Target"
+TextBox_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_4.TextScaled = true
+TextBox_4.TextSize = 50.000
+TextBox_4.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0, 6)
+UICorner_20.Parent = TextBox_4
+
+_9Money.Name = "9Money"
+_9Money.Parent = ScrollingFrame
+_9Money.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+_9Money.BackgroundTransparency = 0.500
+_9Money.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_9Money.BorderSizePixel = 0
+_9Money.Position = UDim2.new(0.00478468835, 0, 0.559183657, 0)
+_9Money.Size = UDim2.new(0, 209, 0, 25)
+
+TextLabel_7.Parent = _9Money
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Size = UDim2.new(0, 51, 0, 25)
+TextLabel_7.Font = Enum.Font.GothamBlack
+TextLabel_7.Text = "  Money"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+hide.Name = "hide"
+hide.Parent = _9Money
+hide.AnchorPoint = Vector2.new(0.5, 0.5)
+hide.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+hide.BorderSizePixel = 0
+hide.Position = UDim2.new(0.856923461, 0, 0.5, 0)
+hide.Size = UDim2.new(0, 45, 0, 20)
+hide.Font = Enum.Font.GothamBold
+hide.Text = "Hide"
+hide.TextColor3 = Color3.fromRGB(255, 255, 255)
+hide.TextSize = 12.000
+
+UICorner_21.CornerRadius = UDim.new(0, 6)
+UICorner_21.Parent = hide
+
+show.Name = "show"
+show.Parent = _9Money
+show.AnchorPoint = Vector2.new(0.5, 0.5)
+show.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+show.BorderSizePixel = 0
+show.Position = UDim2.new(0.608119607, 0, 0.5, 0)
+show.Size = UDim2.new(0, 45, 0, 20)
+show.Font = Enum.Font.GothamBold
+show.Text = "Show"
+show.TextColor3 = Color3.fromRGB(255, 255, 255)
+show.TextSize = 12.000
+
+UICorner_22.CornerRadius = UDim.new(0, 6)
+UICorner_22.Parent = show
+
+_8Advert.Name = "8Advert"
+_8Advert.Parent = ScrollingFrame
+_8Advert.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+_8Advert.BackgroundTransparency = 0.500
+_8Advert.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_8Advert.BorderSizePixel = 0
+_8Advert.Position = UDim2.new(-4.65661287e-10, 0, 0.624489784, 0)
+_8Advert.Size = UDim2.new(0, 209, 0, 25)
+
+TextLabel_8.Parent = _8Advert
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Size = UDim2.new(0, 51, 0, 25)
+TextLabel_8.Font = Enum.Font.GothamBlack
+TextLabel_8.Text = "  Advert"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+off.Name = "off"
+off.Parent = _8Advert
+off.AnchorPoint = Vector2.new(0.5, 0.5)
+off.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+off.BorderSizePixel = 0
+off.Position = UDim2.new(0.856923461, 0, 0.5, 0)
+off.Size = UDim2.new(0, 45, 0, 20)
+off.Font = Enum.Font.GothamBold
+off.Text = "Off"
+off.TextColor3 = Color3.fromRGB(255, 255, 255)
+off.TextSize = 14.000
+
+UICorner_23.CornerRadius = UDim.new(0, 6)
+UICorner_23.Parent = off
+
+on.Name = "on"
+on.Parent = _8Advert
+on.AnchorPoint = Vector2.new(0.5, 0.5)
+on.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+on.BorderSizePixel = 0
+on.Position = UDim2.new(0.608119607, 0, 0.5, 0)
+on.Size = UDim2.new(0, 45, 0, 20)
+on.Font = Enum.Font.GothamBold
+on.Text = "On"
+on.TextColor3 = Color3.fromRGB(255, 255, 255)
+on.TextSize = 14.000
+
+UICorner_24.CornerRadius = UDim.new(0, 6)
+UICorner_24.Parent = on
+
+Mask.Name = "Mask"
+Mask.Parent = ScrollingFrame
+Mask.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+Mask.BackgroundTransparency = 0.500
+Mask.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Mask.BorderSizePixel = 0
+Mask.Position = UDim2.new(0.00478468835, 0, 0.559183657, 0)
+Mask.Size = UDim2.new(0, 209, 0, 25)
+
+TextLabel_9.Parent = Mask
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Size = UDim2.new(0, 51, 0, 25)
+TextLabel_9.Font = Enum.Font.GothamBlack
+TextLabel_9.Text = "  Mask"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+off_2.Name = "off"
+off_2.Parent = Mask
+off_2.AnchorPoint = Vector2.new(0.5, 0.5)
+off_2.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+off_2.BorderSizePixel = 0
+off_2.Position = UDim2.new(0.856923461, 0, 0.5, 0)
+off_2.Size = UDim2.new(0, 45, 0, 20)
+off_2.Font = Enum.Font.GothamBold
+off_2.Text = "Off"
+off_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+off_2.TextSize = 14.000
+
+UICorner_25.CornerRadius = UDim.new(0, 6)
+UICorner_25.Parent = off_2
+
+on_2.Name = "on"
+on_2.Parent = Mask
+on_2.AnchorPoint = Vector2.new(0.5, 0.5)
+on_2.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+on_2.BorderSizePixel = 0
+on_2.Position = UDim2.new(0.608119607, 0, 0.5, 0)
+on_2.Size = UDim2.new(0, 45, 0, 20)
+on_2.Font = Enum.Font.GothamBold
+on_2.Text = "On"
+on_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+on_2.TextSize = 14.000
+
+UICorner_26.CornerRadius = UDim.new(0, 6)
+UICorner_26.Parent = on_2
+
+DelCash.Name = "DelCash"
+DelCash.Parent = ScrollingFrame
+DelCash.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+DelCash.BackgroundTransparency = 0.500
+DelCash.BorderColor3 = Color3.fromRGB(27, 42, 53)
+DelCash.BorderSizePixel = 0
+DelCash.Position = UDim2.new(-4.65661287e-10, 0, 0.828571439, 0)
+DelCash.Size = UDim2.new(0, 209, 0, 25)
+
+TextLabel_10.Parent = DelCash
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Size = UDim2.new(0, 51, 0, 25)
+TextLabel_10.Font = Enum.Font.GothamBlack
+TextLabel_10.Text = "  DelCash"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+off_3.Name = "off"
+off_3.Parent = DelCash
+off_3.AnchorPoint = Vector2.new(0.5, 0.5)
+off_3.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+off_3.BorderSizePixel = 0
+off_3.Position = UDim2.new(0.856923461, 0, 0.5, 0)
+off_3.Size = UDim2.new(0, 45, 0, 20)
+off_3.Font = Enum.Font.GothamBold
+off_3.Text = "Off"
+off_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+off_3.TextSize = 14.000
+
+UICorner_27.CornerRadius = UDim.new(0, 6)
+UICorner_27.Parent = off_3
+
+on_3.Name = "on"
+on_3.Parent = DelCash
+on_3.AnchorPoint = Vector2.new(0.5, 0.5)
+on_3.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+on_3.BorderSizePixel = 0
+on_3.Position = UDim2.new(0.608119607, 0, 0.5, 0)
+on_3.Size = UDim2.new(0, 45, 0, 20)
+on_3.Font = Enum.Font.GothamBold
+on_3.Text = "On"
+on_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+on_3.TextSize = 14.000
+
+UICorner_28.CornerRadius = UDim.new(0, 6)
+UICorner_28.Parent = on_3
+
+Y.Name = "Y"
+Y.Parent = ScrollingFrame
+Y.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Y.BackgroundTransparency = 1.000
+Y.Position = UDim2.new(0, 0, -1.00612247, 0)
+Y.Size = UDim2.new(0, 204, 0, 454)
+Y.Font = Enum.Font.GothamBold
+Y.Text = "[1.0.3]                                                      by czopek#7877                       join discord.gg/iku"
+Y.TextColor3 = Color3.fromRGB(255, 255, 255)
+Y.TextSize = 14.000
+Y.TextWrapped = true
+Y.TextYAlignment = Enum.TextYAlignment.Bottom
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.Padding = UDim.new(0, 8)
+
+Load.Name = "Load"
+Load.Parent = ScrollingFrame
+Load.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+Load.BackgroundTransparency = 0.500
+Load.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Load.BorderSizePixel = 0
+Load.Position = UDim2.new(-4.65661287e-10, 0, 0.828571439, 0)
+Load.Size = UDim2.new(0, 209, 0, 25)
+
+TextLabel_11.Parent = Load
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Size = UDim2.new(0, 51, 0, 25)
+TextLabel_11.Font = Enum.Font.GothamBlack
+TextLabel_11.Text = "  Load"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+
+encrypt.Name = "encrypt"
+encrypt.Parent = Load
+encrypt.AnchorPoint = Vector2.new(0.5, 0.5)
+encrypt.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+encrypt.BorderSizePixel = 0
+encrypt.Position = UDim2.new(0.856923461, 0, 0.5, 0)
+encrypt.Size = UDim2.new(0, 45, 0, 20)
+encrypt.Font = Enum.Font.GothamBold
+encrypt.Text = "Encrypt"
+encrypt.TextColor3 = Color3.fromRGB(255, 255, 255)
+encrypt.TextSize = 10.000
+
+UICorner_29.CornerRadius = UDim.new(0, 6)
+UICorner_29.Parent = encrypt
+
+swagmode.Name = "swagmode"
+swagmode.Parent = Load
+swagmode.AnchorPoint = Vector2.new(0.5, 0.5)
+swagmode.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+swagmode.BorderSizePixel = 0
+swagmode.Position = UDim2.new(0.608119607, 0, 0.5, 0)
+swagmode.Size = UDim2.new(0, 45, 0, 20)
+swagmode.Font = Enum.Font.GothamBold
+swagmode.Text = "Swagmode"
+swagmode.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+UICorner_30.CornerRadius = UDim.new(0, 6)
+UICorner_30.Parent = swagmode
+
+Ground.Name = "Ground"
+Ground.Parent = ScrollingFrame
+Ground.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+Ground.BackgroundTransparency = 0.500
+Ground.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Ground.BorderSizePixel = 0
+Ground.Position = UDim2.new(0, 0, 0.188999996, 0)
+Ground.Size = UDim2.new(0, 209, 0, 25)
+
+unlock_2.Name = "unlock"
+unlock_2.Parent = Ground
+unlock_2.AnchorPoint = Vector2.new(0.5, 0.5)
+unlock_2.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+unlock_2.BorderSizePixel = 0
+unlock_2.Position = UDim2.new(0.682282269, 0, 0.5, 0)
+unlock_2.Size = UDim2.new(0, 60, 0, 20)
+unlock_2.Font = Enum.Font.GothamBold
+unlock_2.Text = "Unground"
+unlock_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+unlock_2.TextSize = 12.000
+
+UICorner_31.CornerRadius = UDim.new(0, 6)
+UICorner_31.Parent = unlock_2
+
+ground.Name = "ground"
+ground.Parent = Ground
+ground.AnchorPoint = Vector2.new(0.5, 0.5)
+ground.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+ground.BorderSizePixel = 0
+ground.Position = UDim2.new(0.318645924, 0, 0.5, 0)
+ground.Size = UDim2.new(0, 60, 0, 20)
+ground.Font = Enum.Font.GothamBold
+ground.Text = "Ground"
+ground.TextColor3 = Color3.fromRGB(255, 255, 255)
+ground.TextSize = 14.000
+
+UICorner_32.CornerRadius = UDim.new(0, 6)
+UICorner_32.Parent = ground
+
+Fps.Name = "Fps"
+Fps.Parent = ScrollingFrame
+Fps.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+Fps.BackgroundTransparency = 0.500
+Fps.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Fps.BorderSizePixel = 0
+Fps.Position = UDim2.new(0, 0, 0.317265332, 0)
+Fps.Size = UDim2.new(0, 209, 0, 25)
+
+TextLabel_12.Parent = Fps
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Size = UDim2.new(0, 51, 0, 25)
+TextLabel_12.Font = Enum.Font.GothamBlack
+TextLabel_12.Text = "  FPS"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
+
+TextBox_5.Parent = Fps
+TextBox_5.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+TextBox_5.BorderSizePixel = 0
+TextBox_5.Position = UDim2.new(0.749268055, 0, 0.0799999982, 0)
+TextBox_5.Size = UDim2.new(0, 45, 0, 20)
+TextBox_5.Font = Enum.Font.SourceSansBold
+TextBox_5.Text = ""
+TextBox_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_5.TextScaled = true
+TextBox_5.TextSize = 50.000
+TextBox_5.TextWrapped = true
+
+UICorner_33.CornerRadius = UDim.new(0, 6)
+UICorner_33.Parent = TextBox_5
+
+Dropped.Name = "Dropped"
+Dropped.Parent = ScrollingFrame
+Dropped.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+Dropped.BackgroundTransparency = 0.500
+Dropped.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Dropped.BorderSizePixel = 0
+Dropped.Position = UDim2.new(0, 0, 0.188999996, 0)
+Dropped.Size = UDim2.new(0, 209, 0, 25)
+
+dropped.Name = "dropped"
+dropped.Parent = Dropped
+dropped.AnchorPoint = Vector2.new(0.5, 0.5)
+dropped.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+dropped.BorderSizePixel = 0
+dropped.Position = UDim2.new(0.495679438, 0, 0.5, 0)
+dropped.Size = UDim2.new(0, 60, 0, 20)
+dropped.Font = Enum.Font.GothamBold
+dropped.Text = "Dropped"
+dropped.TextColor3 = Color3.fromRGB(255, 255, 255)
+dropped.TextSize = 12.000
+
+UICorner_34.CornerRadius = UDim.new(0, 6)
+UICorner_34.Parent = dropped
+
+AdvertMsg.Name = "AdvertMsg"
+AdvertMsg.Parent = ScrollingFrame
+AdvertMsg.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+AdvertMsg.BackgroundTransparency = 0.500
+AdvertMsg.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AdvertMsg.BorderSizePixel = 0
+AdvertMsg.Position = UDim2.new(0, 0, 0.691999972, 0)
+AdvertMsg.Size = UDim2.new(0, 209, 0, 25)
+
+TextLabel_13.Parent = AdvertMsg
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Size = UDim2.new(0, 51, 0, 25)
+TextLabel_13.Font = Enum.Font.GothamBlack
+TextLabel_13.Text = "  AdvertNew"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 10.000
+TextLabel_13.TextXAlignment = Enum.TextXAlignment.Left
+
+TextBox_6.Parent = AdvertMsg
+TextBox_6.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+TextBox_6.BorderSizePixel = 0
+TextBox_6.Position = UDim2.new(0.337784827, 0, 0.0799999982, 0)
+TextBox_6.Size = UDim2.new(0, 131, 0, 20)
+TextBox_6.Font = Enum.Font.SourceSansBold
+TextBox_6.Text = ""
+TextBox_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_6.TextScaled = true
+TextBox_6.TextSize = 50.000
+TextBox_6.TextWrapped = true
+
+UICorner_35.CornerRadius = UDim.new(0, 6)
+UICorner_35.Parent = TextBox_6
+
+Z.Name = "Z"
+Z.Parent = ScrollingFrame
+Z.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+Z.BackgroundTransparency = 0.500
+Z.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Z.BorderSizePixel = 0
+Z.Position = UDim2.new(0, 0, 0.188999996, 0)
+Z.Size = UDim2.new(0, 209, 0, 25)
+
+DestroyGui.Name = "DestroyGui"
+DestroyGui.Parent = Z
+DestroyGui.AnchorPoint = Vector2.new(0.5, 0.5)
+DestroyGui.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+DestroyGui.BorderSizePixel = 0
+DestroyGui.Position = UDim2.new(0.495679438, 0, 0.5, 0)
+DestroyGui.Size = UDim2.new(0, 60, 0, 20)
+DestroyGui.Font = Enum.Font.GothamBold
+DestroyGui.Text = "DestroyGui"
+DestroyGui.TextColor3 = Color3.fromRGB(255, 255, 255)
+DestroyGui.TextSize = 9.000
+
+UICorner_36.CornerRadius = UDim.new(0, 6)
+UICorner_36.Parent = DestroyGui
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.32, Color3.fromRGB(227, 227, 227)), ColorSequenceKeypoint.new(0.64, Color3.fromRGB(195, 195, 195)), ColorSequenceKeypoint.new(0.89, Color3.fromRGB(184, 184, 184)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(161, 161, 161))}
+UIGradient.Rotation = 120
+UIGradient.Parent = Main
+
+TopBar.Name = "TopBar"
+TopBar.Parent = BackFrame
+TopBar.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+TopBar.BorderSizePixel = 0
+TopBar.Size = UDim2.new(0, 210, 0, 25)
+
+Corner.CornerRadius = UDim.new(0, 4)
+Corner.Name = "Corner"
+Corner.Parent = TopBar
+
+Fill_2.Name = "Fill"
+Fill_2.Parent = TopBar
+Fill_2.BackgroundColor3 = Color3.fromRGB(82, 84, 171)
+Fill_2.BorderSizePixel = 0
+Fill_2.Position = UDim2.new(0, 0, 0.706666231, 0)
+Fill_2.Size = UDim2.new(0, 210, 0, 9)
+
+Toggle.Name = "Toggle"
+Toggle.Parent = TopBar
+Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Toggle.BackgroundTransparency = 1.000
+Toggle.Position = UDim2.new(0.876190543, 0, 0, 0)
+Toggle.Rotation = 180.000
+Toggle.Size = UDim2.new(0, 25, 0, 25)
+Toggle.Image = "http://www.roblox.com/asset/?id=6034818379"
+
+Label.Name = "Label"
+Label.Parent = TopBar
+Label.Active = true
+Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label.BackgroundTransparency = 1.000
+Label.Size = UDim2.new(0, 107, 0, 25)
+Label.Font = Enum.Font.GothamBold
+Label.Text = "  Alt Control Gui (Prem)"
+Label.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label.TextSize = 12.000
+Label.TextXAlignment = Enum.TextXAlignment.Left
+
+-- Scripts:
+
+local function RKWH_fake_script() -- train.LocalScript 
+	local script = Instance.new('LocalScript', train)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."setup "..script.Parent.Name)
+		warn(Prefix.."setup "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(RKWH_fake_script)()
+local function JXKR_fake_script() -- admin.LocalScript 
+	local script = Instance.new('LocalScript', admin)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."setup "..script.Parent.Name)
+		warn(Prefix.."setup "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(JXKR_fake_script)()
+local function EIZAG_fake_script() -- bank.LocalScript 
+	local script = Instance.new('LocalScript', bank)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."setup "..script.Parent.Name)
+		warn(Prefix.."setup "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(EIZAG_fake_script)()
+local function FGXZ_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	script.Parent.FocusLost:Connect(function()
+		wait(.1)
+		warn("New prefix "..script.Parent.Text)
+	end)
+end
+coroutine.wrap(FGXZ_fake_script)()
+local function BEDAY_fake_script() -- random.LocalScript 
+	local script = Instance.new('LocalScript', random)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."host "..script.Parent.Name)
+		warn(Prefix.."host "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(BEDAY_fake_script)()
+local function AMUGQ_fake_script() -- line.LocalScript 
+	local script = Instance.new('LocalScript', line)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."host "..script.Parent.Name)
+		warn(Prefix.."host "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(AMUGQ_fake_script)()
+local function BLXPAUX_fake_script() -- spot.LocalScript 
+	local script = Instance.new('LocalScript', spot)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."host "..script.Parent.Name)
+		warn(Prefix.."host "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(BLXPAUX_fake_script)()
+local function TPFKCF_fake_script() -- circle.LocalScript 
+	local script = Instance.new('LocalScript', circle)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."host around")  --// too lazy to change all the gui names and stuff lol
+		warn(Prefix.."host around")
+	end)
+	
+	
+end
+coroutine.wrap(TPFKCF_fake_script)()
+local function QUENJ_fake_script() -- stop.LocalScript 
+	local script = Instance.new('LocalScript', stop)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix..script.Parent.Name)
+		warn(Prefix..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(QUENJ_fake_script)()
+local function AGCNXGF_fake_script() -- drop.LocalScript 
+	local script = Instance.new('LocalScript', drop)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix..script.Parent.Name)
+		warn(Prefix..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(AGCNXGF_fake_script)()
+local function IMOMR_fake_script() -- TextBox_2.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_2)
+
+	script.Parent.FocusLost:Connect(function()
+		wait(.1)
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."cdrop "..script.Parent.Text)
+		warn(Prefix.."cdrop "..script.Parent.Text)
+	end)
+end
+coroutine.wrap(IMOMR_fake_script)()
+local function PTCPVS_fake_script() -- unlock.LocalScript 
+	local script = Instance.new('LocalScript', unlock)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix..script.Parent.Name)
+		warn(Prefix..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(PTCPVS_fake_script)()
+local function KCPH_fake_script() -- airlock.LocalScript 
+	local script = Instance.new('LocalScript', airlock)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix..script.Parent.Name)
+		warn(Prefix..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(KCPH_fake_script)()
+local function AWGHZZ_fake_script() -- TextBox_3.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_3)
+
+	script.Parent.FocusLost:connect(function()
+		for i,v in pairs(game.Players:GetChildren()) do
+			if (string.sub(string.lower(v.Name),1,string.len(script.Parent.Text))) == string.lower(script.Parent.Text) then
+				script.Parent.Text = v.Name
+			end
+		end
+	end)
+end
+coroutine.wrap(AWGHZZ_fake_script)()
+local function LKQI_fake_script() -- bank_2.LocalScript 
+	local script = Instance.new('LocalScript', bank_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."bring "..script.Parent.Parent.TextBox.Text.." "..script.Parent.Name)
+		warn(Prefix.."bring "..script.Parent.Parent.TextBox.Text.." "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(LKQI_fake_script)()
+local function XERSH_fake_script() -- admin_2.LocalScript 
+	local script = Instance.new('LocalScript', admin_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."bring "..script.Parent.Parent.TextBox.Text.." "..script.Parent.Name)
+		warn(Prefix.."bring "..script.Parent.Parent.TextBox.Text.." "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(XERSH_fake_script)()
+local function KFVM_fake_script() -- train_2.LocalScript 
+	local script = Instance.new('LocalScript', train_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."bring "..script.Parent.Parent.TextBox.Text.." "..script.Parent.Name)
+		warn(Prefix.."bring "..script.Parent.Parent.TextBox.Text.." "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(KFVM_fake_script)()
+local function NKPJ_fake_script() -- host.LocalScript 
+	local script = Instance.new('LocalScript', host)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."bring "..script.Parent.Parent.TextBox.Text.." "..script.Parent.Name)
+		warn(Prefix.."bring "..script.Parent.Parent.TextBox.Text.." "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(NKPJ_fake_script)()
+local function PBJTD_fake_script() -- TextBox_4.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_4)
+
+	script.Parent.FocusLost:Connect(function()
+		wait(.1)
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."stomp "..script.Parent.Text)
+		warn(Prefix.."stomp "..script.Parent.Text)
+		
+	end)
+end
+coroutine.wrap(PBJTD_fake_script)()
+local function ADAWD_fake_script() -- TextBox_4.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_4)
+
+	script.Parent.FocusLost:connect(function()
+		for i,v in pairs(game.Players:GetChildren()) do
+			if (string.sub(string.lower(v.Name),1,string.len(script.Parent.Text))) == string.lower(script.Parent.Text) then
+				script.Parent.Text = v.Name
+			end
+		end
+	end)
+end
+coroutine.wrap(ADAWD_fake_script)()
+local function BILYV_fake_script() -- hide.LocalScript 
+	local script = Instance.new('LocalScript', hide)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."money "..script.Parent.Name)
+		warn(Prefix.."money "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(BILYV_fake_script)()
+local function BJBZLV_fake_script() -- show.LocalScript 
+	local script = Instance.new('LocalScript', show)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."money "..script.Parent.Name)
+		warn(Prefix.."money "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(BJBZLV_fake_script)()
+local function SGCTMTZ_fake_script() -- off.LocalScript 
+	local script = Instance.new('LocalScript', off)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."advert "..script.Parent.Name)
+		warn(Prefix.."advert "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(SGCTMTZ_fake_script)()
+local function BZDYZF_fake_script() -- on.LocalScript 
+	local script = Instance.new('LocalScript', on)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."advert "..script.Parent.Name)
+		warn(Prefix.."advert "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(BZDYZF_fake_script)()
+local function ZBWD_fake_script() -- off_2.LocalScript 
+	local script = Instance.new('LocalScript', off_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."mask "..script.Parent.Name)
+		warn(Prefix.."mask "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(ZBWD_fake_script)()
+local function DAWLR_fake_script() -- on_2.LocalScript 
+	local script = Instance.new('LocalScript', on_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."mask "..script.Parent.Name)
+		warn(Prefix.."mask "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(DAWLR_fake_script)()
+local function FRGVP_fake_script() -- off_3.LocalScript 
+	local script = Instance.new('LocalScript', off_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."delcash "..script.Parent.Name)
+		warn(Prefix.."delcash "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(FRGVP_fake_script)()
+local function LTTLV_fake_script() -- on_3.LocalScript 
+	local script = Instance.new('LocalScript', on_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."delcash "..script.Parent.Name)
+		warn(Prefix.."delcash "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(LTTLV_fake_script)()
+local function MXNEGN_fake_script() -- encrypt.LocalScript 
+	local script = Instance.new('LocalScript', encrypt)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."load "..script.Parent.Name)
+		warn(Prefix.."load "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(MXNEGN_fake_script)()
+local function JBCSH_fake_script() -- swagmode.LocalScript 
+	local script = Instance.new('LocalScript', swagmode)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."load "..script.Parent.Name)
+		warn(Prefix.."load "..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(JBCSH_fake_script)()
+local function WPIUY_fake_script() -- unlock_2.LocalScript 
+	local script = Instance.new('LocalScript', unlock_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix..script.Parent.Name)
+		warn(Prefix..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(WPIUY_fake_script)()
+local function PFGEH_fake_script() -- ground.LocalScript 
+	local script = Instance.new('LocalScript', ground)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix..script.Parent.Name)
+		warn(Prefix..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(PFGEH_fake_script)()
+local function CSIMI_fake_script() -- TextBox_5.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_5)
+
+	script.Parent.FocusLost:Connect(function()
+		wait(.1)
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."fps "..tonumber(script.Parent.Text))
+		warn(Prefix.."fps "..tonumber(script.Parent.Text))
+	end)
+end
+coroutine.wrap(CSIMI_fake_script)()
+local function HIUO_fake_script() -- dropped.LocalScript 
+	local script = Instance.new('LocalScript', dropped)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix..script.Parent.Name)
+		warn(Prefix..script.Parent.Name)
+	end)
+	
+	
+end
+coroutine.wrap(HIUO_fake_script)()
+local function AXOOJK_fake_script() -- TextBox_6.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_6)
+
+	script.Parent.FocusLost:Connect(function()
+		wait(.1)
+		local Prefix = script.Parent.Parent.Parent:FindFirstChild("0Prefix").TextBox.Text
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("", "System")
+		local x = require(game.Players.LocalPlayer.PlayerScripts.ChatScript.ChatMain)
+		x.MessagePosted:fire(Prefix.."advertnew "..script.Parent.Text)
+		warn(Prefix.."advertnew "..script.Parent.Text)
+	end)
+end
+coroutine.wrap(AXOOJK_fake_script)()
+local function SUYZLKD_fake_script() -- DestroyGui.LocalScript 
+	local script = Instance.new('LocalScript', DestroyGui)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("CoreGui"):FindFirstChild("AltControlGui"):Destroy()
+	end)
+	
+	
+end
+coroutine.wrap(SUYZLKD_fake_script)()
+local function YVIRV_fake_script() -- DestroyGui.LocalScript 
+	local script = Instance.new('LocalScript', DestroyGui)
+
+	script.Parent.MouseEnter:Connect(function()
+	game:GetService("TweenService"):Create(script.Parent,TweenInfo.new(.3,Enum.EasingStyle.Quart,Enum.EasingDirection.Out),{BackgroundColor3 = Color3.fromRGB(255, 0, 4)}):Play()
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent,TweenInfo.new(.4,Enum.EasingStyle.Quart,Enum.EasingDirection.In),{BackgroundColor3 = Color3.fromRGB(82, 84, 171)}):Play()
+	end)
+end
+coroutine.wrap(YVIRV_fake_script)()
+local function MKRNVR_fake_script() -- Toggle.LocalScript 
+	local script = Instance.new('LocalScript', Toggle)
+
+	Toggled = false 
+	Clicked = false
+	script.Parent.MouseButton1Click:Connect(function()
+	local X = script.Parent.Parent.Parent.Main
+		local Close = game:GetService("TweenService"):Create(X,TweenInfo.new(.6,Enum.EasingStyle.Quart,Enum.EasingDirection.Out),{ Position = X.Position + UDim2.new(0,0,0,280)})
+		local Open = game:GetService("TweenService"):Create(X,TweenInfo.new(.6,Enum.EasingStyle.Quart,Enum.EasingDirection.Out),{ Position = X.Position + UDim2.new(0,0,0,-280)})
+		local Spin = game:GetService("TweenService"):Create(script.Parent,TweenInfo.new(.6,Enum.EasingStyle.Quart,Enum.EasingDirection.Out),{ Rotation = script.Parent.Rotation + 180 })
+		if Toggled == true and Clicked == false then 
+			Clicked = true
+			Spin:Play()
+			Close:Play()
+			X.Visible = true
+			X.Active = true
+			wait(.8)
+			Toggled = false
+			Clicked = false 
+		else if Toggled == false and Clicked == false then 
+				Clicked = true 
+				Spin:Play()
+				Open:Play()
+				wait(.8)
+				X.Visible = false
+				X.Active = false	
+				Toggled = true
+				Clicked = false
+			end
+			
+		end
+	end)
+end
+coroutine.wrap(MKRNVR_fake_script)()
+local function WIIHB_fake_script() -- TopBar.Drag 
+	local script = Instance.new('LocalScript', TopBar)
+
+	local Drag = script.Parent.Parent
+	gsCoreGui = game:GetService("CoreGui")
+	gsTween = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+		local dragging
+		local dragInput
+		local dragStart
+		local startPos
+		local function update(input)
+			local delta = input.Position - dragStart
+			local dragTime = 0.04
+			local SmoothDrag = {}
+			SmoothDrag.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			local dragSmoothFunction = gsTween:Create(Drag, TweenInfo.new(dragTime, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), SmoothDrag)
+			dragSmoothFunction:Play()
+		end
+		Drag.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+				dragging = true
+				dragStart = input.Position
+				startPos = Drag.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragging = false
+					end
+				end)
+			end
+		end)
+		Drag.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		UserInputService.InputChanged:Connect(function(input)
+			if input == dragInput and dragging and Drag.Size then
+				update(input)
+			end
+		end)
+	
+end
+coroutine.wrap(WIIHB_fake_script)()
+local function GGHJ_fake_script() -- TopBar.LocalScript 
+	local script = Instance.new('LocalScript', TopBar)
+
+	game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(pressed)
+		if pressed == "v" then 
+			if script.Parent.Parent.Visible == false then script.Parent.Parent.Visible = true else script.Parent.Parent.Visible = false
+			end
+		end
+	end)
+end
+coroutine.wrap(GGHJ_fake_script)()
+end
